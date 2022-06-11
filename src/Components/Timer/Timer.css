@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "digital-7";
+  src: url("../../assets/digital-7.ttf");
+}
+.timer {
+  max-width: 1240px;
+  background: rgb(15, 62, 161);
+  background: linear-gradient(
+    185deg,
+    rgba(15, 62, 161, 1) 0%,
+    rgba(8, 62, 147, 1) 32%,
+    rgba(3, 6, 47, 1) 100%
+  );
+  margin-top: 25px;
+}
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  max-width: 540px;
+  margin: 20px auto;
+  letter-spacing: 0.1em;
+  line-height: 1.3em;
+  color: white;
+  font-size: larger;
+}
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 4px 0 0 0;
+  background: rgb(130, 15, 161);
+  background: linear-gradient(
+    100deg,
+    rgba(130, 15, 161, 1) 0%,
+    rgba(147, 8, 128, 1) 52%,
+    rgba(97, 3, 71, 1) 100%
+  );
+}
+
+.countdown-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 -8px 0 -8px;
+  padding-bottom: 20px;
+}
+
+.time-section {
+  padding: 0px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #254864 !important;
+}
+
+.time {
+  font-family: "digital-7", sans-serif;
+  margin: 0;
+  font-size: 78px !important;
+  font-weight: 800 !important;
+  color: #26e8b1;
+}
+
+.small {
+  font-size: 18px !important;
+}
+@media screen and (max-width: 480px) {
+  .subtitle {
+    font-size: 16px;
+    width: 50% !important;
+    margin: 10px auto !important;
+  }
+  .time {
+    font-size: 2rem !important;
+  }
+}

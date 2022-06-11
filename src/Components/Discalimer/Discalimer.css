@@ -1,0 +1,38 @@
+.Innovate_innovateCard__e1Jff-airdrop {
+    background: rgba(10, 7, 13, 0.3);
+    box-shadow: rgb(0 0 0 / 20%) 0px 10px 20px;
+    -webkit-backdrop-filter: blur(27.1828px);
+    backdrop-filter: blur(27.1828px px);
+    transition: 0.5s;
+
+
+    width: 50%;
+    margin: 1em auto;
+    padding: 24px;
+    border-radius: 38px;
+
+}
+
+.text-white-airdrop {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.font-bold-airdrop {
+    font-weight: 700;
+}
+
+.text-\[54px\]-airdrop {
+    font-size: 54px;
+}
+
+.text-center-airdrop {
+    text-align: center;
+}
+
+
+.misc {
+    width: 50%;
+    margin: 1em auto;
+    padding: 24px;
+}

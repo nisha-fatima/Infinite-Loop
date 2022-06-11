@@ -1,0 +1,45 @@
+.main_home {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_bg {
+  position: relative;
+  background-image: url("..//..//images/iloop3 bg.webp");
+  background-position: center;
+  background-size: cover;
+  height: 430vh !important;
+}
+
+.hero_bg::before {
+  content: "";
+  background: radial-gradient(99.4% 99.4% at 50% 0%,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.3) 100%);
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.hero_text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 1032px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero_text {
+    max-height: 846px;
+  }
+
+  .hero_bg {
+    height: auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
